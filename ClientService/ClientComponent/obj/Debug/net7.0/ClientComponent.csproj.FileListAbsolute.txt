@@ -1,0 +1,12 @@
+C:\Users\Core i5-8250\Desktop\github\client-service\ClientService\ClientComponent\bin\Debug\net7.0\ClientComponent.deps.json
+C:\Users\Core i5-8250\Desktop\github\client-service\ClientService\ClientComponent\bin\Debug\net7.0\ClientComponent.dll
+C:\Users\Core i5-8250\Desktop\github\client-service\ClientService\ClientComponent\bin\Debug\net7.0\ClientComponent.pdb
+C:\Users\Core i5-8250\Desktop\github\client-service\ClientService\ClientComponent\obj\Debug\net7.0\ClientComponent.csproj.AssemblyReference.cache
+C:\Users\Core i5-8250\Desktop\github\client-service\ClientService\ClientComponent\obj\Debug\net7.0\ClientComponent.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Core i5-8250\Desktop\github\client-service\ClientService\ClientComponent\obj\Debug\net7.0\ClientComponent.AssemblyInfoInputs.cache
+C:\Users\Core i5-8250\Desktop\github\client-service\ClientService\ClientComponent\obj\Debug\net7.0\ClientComponent.AssemblyInfo.cs
+C:\Users\Core i5-8250\Desktop\github\client-service\ClientService\ClientComponent\obj\Debug\net7.0\ClientComponent.csproj.CoreCompileInputs.cache
+C:\Users\Core i5-8250\Desktop\github\client-service\ClientService\ClientComponent\obj\Debug\net7.0\ClientComponent.dll
+C:\Users\Core i5-8250\Desktop\github\client-service\ClientService\ClientComponent\obj\Debug\net7.0\refint\ClientComponent.dll
+C:\Users\Core i5-8250\Desktop\github\client-service\ClientService\ClientComponent\obj\Debug\net7.0\ClientComponent.pdb
+C:\Users\Core i5-8250\Desktop\github\client-service\ClientService\ClientComponent\obj\Debug\net7.0\ref\ClientComponent.dll

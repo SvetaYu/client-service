@@ -1,15 +1,28 @@
-﻿class Program
+﻿using ClientComponent;
+using KeyValuePair = ClientComponent.KeyValuePair;
+
+namespace ClientService;
+
+public static class Program
 {
-    static void Main(string[] args)
+    private static readonly IClientComponent ClientComponent = new ClientComponent.ClientComponent("https://localhost:7180");
+
+    public static async Task Main(string[] args)
     {
+        
         if (args.Length.Equals(0)) throw new Exception();
+        KeyValuePair? pair;
         switch (args[0])
         {
             case "get":
-                //Console.Writeline(ClientComponent.Get(args[1]))
+                pair = await ClientComponent.Get(args[1]);
+                Console.WriteLine(pair?.Value);
                 break;
             case "set":
-                // ClientComponent.Set(args[1], args[2])
+                pair = await ClientComponent.Set(args[1], args[2]);
+                Console.WriteLine("Set pair:");
+                Console.WriteLine($"key={pair?.Key}");
+                Console.WriteLine($"value={pair?.Value}");
                 break;
             default:
                 throw new Exception();
