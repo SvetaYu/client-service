@@ -5,12 +5,13 @@ namespace ClientService;
 
 public static class Program
 {
-    private static readonly IClientComponent ClientComponent = new ClientComponent.ClientComponent("https://localhost:7180");
+    private static readonly IClientComponent ClientComponent = new ClientComponent.ClientComponent("https://172.20.10.5:5430");
 
     public static async Task Main(string[] args)
     {
         
         if (args.Length.Equals(0)) throw new Exception();
+
         KeyValuePair? pair;
         switch (args[0])
         {
