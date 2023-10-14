@@ -5,7 +5,10 @@ namespace ClientService;
 
 public static class Program
 {
-    private static readonly IClientComponent ClientComponent = new ClientComponent.ClientComponent("https://172.20.10.5:5430");
+    //     private static readonly IClientComponent ClientComponent = new ClientComponent.ClientComponent("http://localhost:8001");
+    private static readonly IClientComponent ClientComponent = new ClientComponent.ClientComponent("http://172.28.18.46:8001");
+    // private static readonly IClientComponent ClientComponent = new ClientComponent.ClientComponent("http://172.28.18.212:8001");
+
 
     public static async Task Main(string[] args)
     {
@@ -22,8 +25,8 @@ public static class Program
             case "set":
                 pair = await ClientComponent.Set(args[1], args[2]);
                 Console.WriteLine("Set pair:");
-                Console.WriteLine($"key={pair?.Key}");
-                Console.WriteLine($"value={pair?.Value}");
+                Console.WriteLine($"key = {pair?.Key}");
+                Console.WriteLine($"value = {pair?.Value}");
                 break;
             default:
                 throw new Exception();
